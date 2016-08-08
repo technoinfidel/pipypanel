@@ -1,0 +1,183 @@
+[
+    {
+        "top": 0,
+        "left": 0,
+        "width": 2,
+        "height": 1,
+        "label": "Workspace 1",
+        "image": "workspace_1.png",
+        "compiz": {
+            "plugin": "vpswitch",
+            "action": "switch_to_1_key"
+        }
+    },
+    {
+        "top": 0,
+        "left": 2,
+        "width": 2,
+        "height": 1,
+        "label": "Workspace 2",
+        "image": "workspace_2.png",
+        "compiz": {
+            "plugin": "vpswitch",
+            "action": "switch_to_2_key"
+        }
+    },
+    {
+        "top": 2,
+        "left": 0,
+        "width": 2,
+        "height": 1,
+        "label": "Workspace 3",
+        "image": "workspace_3.png",
+        "compiz": {
+            "plugin": "vpswitch",
+            "action": "switch_to_3_key"
+        }
+    },
+    {
+        "top": 2,
+        "left": 2,
+        "width": 2,
+        "height": 1,
+        "label": "Workspace 4",
+        "image": "workspace_4.png",
+        "compiz": {
+            "plugin": "vpswitch",
+            "action": "switch_to_4_key"
+        }
+    },
+    {
+        "top": 3,
+        "left": 0,
+        "width": 1,
+        "height": 1,
+        "label": "1",
+        "compiz": {
+            "plugin": "put",
+            "action": "put_viewport_1_key"
+        }
+    },
+    {
+        "top": 3,
+        "left": 1,
+        "width": 1,
+        "height": 1,
+        "label": "2",
+        "compiz": {
+            "plugin": "put",
+            "action": "put_viewport_2_key"
+        }
+    },
+    {
+        "top": 3,
+        "left": 2,
+        "width": 1,
+        "height": 1,
+        "label": "3",
+        "compiz": {
+            "plugin": "put",
+            "action": "put_viewport_3_key"
+        }
+    },
+    {
+        "top": 3,
+        "left": 3,
+        "width": 1,
+        "height": 1,
+        "label": "4",
+        "compiz": {
+            "plugin": "put",
+            "action": "put_viewport_4_key"
+        }
+    },
+    {
+        "top": 4,
+        "left": 0,
+        "width": 1,
+        "height": 1,
+        "label": "Q1",
+        "image": "quad_1.png",
+        "quad": 0
+    },
+    {
+        "top": 4,
+        "left": 1,
+        "width": 1,
+        "height": 1,
+        "label": "Q2",
+        "image": "quad_2.png",
+        "quad": 1
+    },
+    {
+        "top": 4,
+        "left": 2,
+        "width": 1,
+        "height": 1,
+        "label": "Q3",
+        "image": "quad_3.png",
+        "quad": 2
+    },
+    {
+        "top": 4,
+        "left": 3,
+        "width": 1,
+        "height": 1,
+        "label": "Q4",
+        "image": "quad_4.png",
+        "quad": 3
+    },
+    {
+        "top": 5,
+        "left": 0,
+        "width": 1,
+        "height": 1,
+        "label": "Expo",
+        "compiz": {
+            "plugin": "expo",
+            "action": "expo_key"
+        }
+    },
+    {
+        "top": 5,
+        "left": 1,
+        "width": 1,
+        "height": 1,
+        "label": "Previous Track",
+        "image": "previous_track.png",
+        "dbus": {
+            "bus": "org.mpris.MediaPlayer2.google-play-music-desktop-player",
+            "object": "/org/mpris/MediaPlayer2",
+            "interface": "org.mpris.MediaPlayer2.Player",
+            "method": "Previous"
+        }
+    },
+    {
+        "top": 5,
+        "left": 2,
+        "width": 1,
+        "height": 1,
+        "label": "Play/Pause",
+        "image": "play_pause.png",
+        "dbus": {
+            "bus": "org.mpris.MediaPlayer2.google-play-music-desktop-player",
+            "object": "/org/mpris/MediaPlayer2",
+            "interface": "org.mpris.MediaPlayer2.Player",
+            "method": "PlayPause"
+        }
+    },
+    {
+        "top": 5,
+        "left": 3,
+        "width": 1,
+        "height": 1,
+        "label": "Next Track",
+        "image": "next_track.png",
+        "dbus": {
+            "bus": "org.mpris.MediaPlayer2.google-play-music-desktop-player",
+            "object": "/org/mpris/MediaPlayer2",
+            "interface": "org.mpris.MediaPlayer2.Player",
+            "method": "Next"
+        }
+    }
+]
